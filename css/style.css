@@ -1,1 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+header{
+	background-color: #05192e;
+	color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration:underline;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+     
+        body {
+            margin: 0;
+   
+        }
+
+        .navbar {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar-title {
+            font-family: 'Hussar Bold', sans-serif;
+            font-size: 28px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+        }
+
+        .nav-links a:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+#hero{
+	text-align: center;
+	background-image:url("../img/jd.jpg");
+	background-size: cover;
+	padding: 100px 100px;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.20);
+	background-position: center top 35%;
+}
+
+#hero h1{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 100;
+}
+
+#hero h2{
+	color: #fff;
+	font-size: 150px;
+	font-weight: 600;
+}
+
+#hero p{
+	color: #fff;
+	font-size: 26px;
+	font-weight: 400;
+}
+
+.bajar{
+	margin-top: 100px;
+}
+
+#acerca{
+	margin-top: 50px;
+}
+
+#acerca h1{
+	color:#05192e;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+#acerca h2{
+	color:#135496;
+	text-align: center;
+	padding-top: 50px;
+	font-weight: 700;
+}
+
+#acerca p{
+	font-size: 20px;
+}
+
+.acerca-img{
+	text-align:center
+}
+
+.experiencia{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.experiencia h3{
+	margin-top: 50px;
+}
+
+#servicios{
+	margin-top: 50px;
+	text-align: center;
+	background-color:#FBFBFB;
+	padding: 100px;
+}
+
+#servicios h1{
+	color:#05192e;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	padding-bottom: 50px;
+}
+
+#servicios i{
+	font-size: 88px;
+	color:#135496;
+	padding-bottom: 50px;
+}
+
+#servicios h3{
+	color:#135496;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+#formulario{
+	margin: 50px;
+}
+
+.btn{
+	background-color: #135496;
+	color: #fff;
+}
+
+#formulario h1{
+	color:#05192e;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	padding-bottom: 50px;
+}
+
+footer{
+	background-color: #05192e;
+	color:#fff;
+	padding: 30px;
+	text-align: center;
+}
+
+footer p{
+	font-weight: 200;
+}
+
+.carousel-caption h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Responsive */
+
+@media (min-width: 992px) {
+
+    .carousel-caption h5 {
+        font-size: 4rem;
+    }
+}
+
+#portafolio h1{
+	margin-top: 50px;
+	color:#05192e;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	padding-bottom: 50px;
+}
